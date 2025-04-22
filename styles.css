@@ -36,3 +36,40 @@ main{
     font-weight: 800;
     color:hsl(234, 12%, 34%);
 }
+
+.card{
+    width: 22rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 15rem;
+    border-top: solid 10px;
+    margin: 3rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2{
+    margin: 0;
+}
+
+#red{
+    border-color: hsl(0, 78%, 62%);
+}
+
+#blue{
+    border-color:hsl(212, 86%, 64%);
+}
+
+#cyan{
+    border-color:hsl(180, 62%, 55%);
+}
+
+#orange{
+    border-color: hsl(34, 97%, 64%);
+}
+.icon{
+    align-self: flex-end;
+}
