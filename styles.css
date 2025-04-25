@@ -57,19 +57,28 @@ h2{
 
 #red{
     border-color: hsl(0, 78%, 62%);
+    order: 0;
 }
 
 #blue{
     border-color:hsl(212, 86%, 64%);
+    order: 1;
 }
 
 #cyan{
     border-color:hsl(180, 62%, 55%);
+    order: -1;
 }
 
 #orange{
     border-color: hsl(34, 97%, 64%);
+    order: 0;
 }
 .icon{
     align-self: flex-end;
+}
+
+.four-card{
+    display: flex;
+    align-items:center;
 }
